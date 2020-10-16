@@ -1,7 +1,7 @@
 HOME:
 
 ABOUT:
-    -about _CEO [image,name,text]
+    -CEO [image,name,text]
     -Team [image,name,position]
 
 
