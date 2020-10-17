@@ -26,8 +26,10 @@ class Team(models.Model):
     class Meta:
         verbose_name_plural='Team'
 
+
     def __str__(self):
         return str(self.name)
+
 
 
 class Position(models.Model):
