@@ -44,7 +44,4 @@ class PricingList(ListView):
         context["resolution"] =Resolution.objects.last() #query
         return context
 
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context["term"] =Term.objects.last() #query
-        return context              
+   
