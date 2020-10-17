@@ -33,8 +33,8 @@ class Team(models.Model):
 
 
 class Position(models.Model):
-    name= models.CharField(max_length=25)
+    position= models.CharField(max_length=25)
 
 
     def __str__(self):
-        return str(self.name)
+        return str(self.position)
