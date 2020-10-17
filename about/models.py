@@ -10,7 +10,7 @@ class CEO(models.Model):
 
 
     def __str__(self):
-    return str(self.name)
+        return str(self.name)
 
 
 
@@ -20,9 +20,13 @@ class Team(models.Model):
     position=models.ForeignKey('Position',related_name='team_position',on_delete=models.CASCADE)
 
 
-     def__str__(self):
-    return str(self.name)
+    def __str__(self):
+        return str(self.name)
 
 
 class Position(models.Model):
     name= models.CharField(max_length=25)
+
+
+    def __str__(self):
+        return str(self.name)
