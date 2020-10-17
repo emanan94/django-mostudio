@@ -3,6 +3,7 @@ HOME:
 ABOUT:
     -CEO [image,name,text]
     -Team [image,name,position]
+    -Position[name]
 
 
 GALLERY:
