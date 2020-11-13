@@ -1,0 +1,8 @@
+<h3>Edit Profile</h3>
+<form action= method="POST" enctype="multipart/form-data">
+{% csrf_token %}
+{{user_form}}
+<hr style="height:5px">
+{{profile_form}}
+<input type="submit" value="EditProfile" >
+</form>
